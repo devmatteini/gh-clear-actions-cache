@@ -1,0 +1,19 @@
+{
+  "name": "gh-clear-actions-cache",
+  "version": "1.0.0",
+  "author": "Cosimo Matteini <dev.matteini@gmail.com>",
+  "description": "Clear github actions cache",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "octokit": "2.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "18.13.0",
+    "typescript": "4.9.5",
+    "tsx": "3.12.3",
+    "prettier": "2.8.4"
+  }
+}
